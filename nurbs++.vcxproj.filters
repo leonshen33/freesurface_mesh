@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="image">
+      <UniqueIdentifier>{a2d84d1a-ae17-4893-bc5f-61203988c4ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="numerical">
+      <UniqueIdentifier>{b288e9c3-f01d-444f-b8da-5ed5ca772519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nurbs">
+      <UniqueIdentifier>{37d36f33-bb64-49a2-97af-0eec1cfee111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="matrix">
+      <UniqueIdentifier>{b067b838-ef4f-4a19-9284-82dac67972ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{de3b9dc3-f9c3-4e78-96cd-eb84267e43ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mynurbs">
+      <UniqueIdentifier>{05e54a66-3c9d-4fba-b125-77b07785ca00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="example">
+      <UniqueIdentifier>{bfca54d8-a23a-4e6f-a5e5-ee632411115f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="image\color.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\filter.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\filter_.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\image.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\image_.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\rec_filter.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\rec_filter_.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\barray.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\barray_char.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\barray_complex.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\barray_coordinate.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\barray_double.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\barray_float.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\barray_hpoint.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\barray_int.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\barray_point.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\barray_uchar.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\barray_void.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\barray2d.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\barray2d_char.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\barray2d_complex.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\barray2d_coordinate.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\barray2d_double.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\barray2d_float.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\barray2d_hpoint.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\barray2d_int.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\barray2d_point.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\barray2d_uchar.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\coordinate.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\cvector.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\error.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\hpoint_nd.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\list.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\matrix.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\matrix_char.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\matrix_complex.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\matrix_double.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\matrix_float.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\matrix_hpoint.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\matrix_int.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\matrix_point.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\matrix_uchar.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\matrixTool.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\point_nd.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\vector.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\vector_char.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\vector_complex.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\vector_double.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\vector_float.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\vector_hpoint.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\vector_int.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\vector_point.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\vector_uchar.cpp">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="numerical\chebexp.cpp">
+      <Filter>numerical</Filter>
+    </ClCompile>
+    <ClCompile Include="numerical\chebexp_.cpp">
+      <Filter>numerical</Filter>
+    </ClCompile>
+    <ClCompile Include="numerical\fft.cpp">
+      <Filter>numerical</Filter>
+    </ClCompile>
+    <ClCompile Include="numerical\fft_.cpp">
+      <Filter>numerical</Filter>
+    </ClCompile>
+    <ClCompile Include="numerical\intccq.cpp">
+      <Filter>numerical</Filter>
+    </ClCompile>
+    <ClCompile Include="numerical\intccq_.cpp">
+      <Filter>numerical</Filter>
+    </ClCompile>
+    <ClCompile Include="numerical\matrixMat.cpp">
+      <Filter>numerical</Filter>
+    </ClCompile>
+    <ClCompile Include="numerical\matrixMat_.cpp">
+      <Filter>numerical</Filter>
+    </ClCompile>
+    <ClCompile Include="numerical\statistic.cpp">
+      <Filter>numerical</Filter>
+    </ClCompile>
+    <ClCompile Include="numerical\statistic_.cpp">
+      <Filter>numerical</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\curve.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\d_curve.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\d_tri_spline.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\f_curve.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\f_tri_spline.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\matrixRT.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\nurbs.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\tri_spline.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\d_hnurbsS.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\d_hnurbsS_sp.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\d_nurbs.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\d_nurbs_sp.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\d_nurbsS.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\d_nurbsS_sp.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\d_nurbsSub.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\d_surface.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\f_hnurbsS.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\f_hnurbsS_sp.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\f_nurbs.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\f_nurbs_sp.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\f_nurbsS.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\f_nurbsS_sp.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\f_nurbsSub.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\f_surface.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\hnurbs.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\hnurbsS.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\hnurbsS_sp.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\nurbs_sp.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\nurbsGL.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\nurbsS.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\nurbsS_sp.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\nurbsSub.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="nurbs\surface.cpp">
+      <Filter>nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix\dv_hpoint_nd.h">
+      <Filter>matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test\nurbsairfoil\nurbsairfoil.cpp">
+      <Filter>mynurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="CadBase.cpp" />
+    <ClCompile Include="cadbase1.cpp" />
+    <ClCompile Include="CMatrix.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="NurbsSurface_qj.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Member.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="NurbsSurface_triangle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="image\color.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="image\filter.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="image\image.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="image\rec_filter.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="include\plib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\plib_config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\barray.h">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\barray2d.h">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\coordinate.h">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\cvector.h">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\error.h">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\hpoint_nd.h">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\list.h">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\matrix.h">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\matrix_global.h">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\matrixTool.h">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\point_nd.h">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\specialType.h">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\vector.h">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="numerical\integrate.h">
+      <Filter>numerical</Filter>
+    </ClInclude>
+    <ClInclude Include="numerical\matrixMat.h">
+      <Filter>numerical</Filter>
+    </ClInclude>
+    <ClInclude Include="numerical\statistic.h">
+      <Filter>numerical</Filter>
+    </ClInclude>
+    <ClInclude Include="nurbs\curve.h">
+      <Filter>nurbs</Filter>
+    </ClInclude>
+    <ClInclude Include="nurbs\matrixRT.h">
+      <Filter>nurbs</Filter>
+    </ClInclude>
+    <ClInclude Include="nurbs\nurbs.h">
+      <Filter>nurbs</Filter>
+    </ClInclude>
+    <ClInclude Include="nurbs\nurbs_global.h">
+      <Filter>nurbs</Filter>
+    </ClInclude>
+    <ClInclude Include="nurbs\tri_spline.h">
+      <Filter>nurbs</Filter>
+    </ClInclude>
+    <ClInclude Include="nurbs\hnurbs.h">
+      <Filter>nurbs</Filter>
+    </ClInclude>
+    <ClInclude Include="nurbs\hnurbsS.h">
+      <Filter>nurbs</Filter>
+    </ClInclude>
+    <ClInclude Include="nurbs\hnurbsS_sp.h">
+      <Filter>nurbs</Filter>
+    </ClInclude>
+    <ClInclude Include="nurbs\nurbs_sp.h">
+      <Filter>nurbs</Filter>
+    </ClInclude>
+    <ClInclude Include="nurbs\nurbsGL.h">
+      <Filter>nurbs</Filter>
+    </ClInclude>
+    <ClInclude Include="nurbs\nurbsS.h">
+      <Filter>nurbs</Filter>
+    </ClInclude>
+    <ClInclude Include="nurbs\nurbsS_sp.h">
+      <Filter>nurbs</Filter>
+    </ClInclude>
+    <ClInclude Include="nurbs\nurbsSub.h">
+      <Filter>nurbs</Filter>
+    </ClInclude>
+    <ClInclude Include="nurbs\surface.h">
+      <Filter>nurbs</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix\dv_point_nd.h">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test\nurbsairfoil\nurbsairfoil.h">
+      <Filter>mynurbs</Filter>
+    </ClInclude>
+    <ClInclude Include="CadBase.h" />
+    <ClInclude Include="CMatrix.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="NurbsSurface_qj.h" />
+    <ClInclude Include="Member.h" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="NurbsSurface_triangle.h" />
+  </ItemGroup>
+</Project>
